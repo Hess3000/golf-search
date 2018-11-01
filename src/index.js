@@ -5,7 +5,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
-const API_KEY = 'AIzaSyDdrRuUps7fUrAXmMZ1CmvQ_-RzY4dGOQE'
+const API_KEY = 'YOUR_API_KEY'
 
 // api call
 YTSearch({key: API_KEY, term: 'amg golf'}, function(data) {
